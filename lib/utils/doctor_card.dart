@@ -18,7 +18,8 @@ class DoctorCard extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(right: 20.0),
       child: Container(
-        width: 150,
+        width: 200,
+        height: 100,
         padding: const EdgeInsets.only(top: 20, left: 10, right: 10),
         decoration: BoxDecoration(
             color: Colors.deepPurple[100],
@@ -34,6 +35,7 @@ class DoctorCard extends StatelessWidget {
                 height: 100,
               ),
             ),
+            const SizedBox(height: 5),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

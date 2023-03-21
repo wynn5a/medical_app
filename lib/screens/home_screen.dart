@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       SizedBox(height: 8),
                       Text(
-                        "Wenming Fu",
+                        "Wynn Ming",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 24,
@@ -72,7 +72,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     SizedBox(
                       height: 100,
                       width: 100,
-                      child: Lottie.network('https://assets7.lottiefiles.com/packages/lf20_42B8LS.json'),
+                      child: Lottie.network(
+                          'https://assets7.lottiefiles.com/packages/lf20_42B8LS.json'),
                     ),
                     const SizedBox(
                       width: 20,
@@ -119,6 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
               const SizedBox(height: 25),
               //search bar
               Container(
+                padding: const EdgeInsets.all(5),
                 decoration: BoxDecoration(
                     color: Colors.deepPurple[100],
                     borderRadius: BorderRadius.circular(12)),
@@ -174,9 +176,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       score: '4.9'),
                   DoctorCard(
                       imagePath: 'lib/resources/images/doctor2.jpg',
-                      name: 'Dr. Arlene McCoy',
-                      address: 'Therapist, 7 ye.',
-                      score: '4.9'),
+                      name: 'Dr. Albert Flores',
+                      address: 'Surgeon, 5 ye.',
+                      score: '4.7'),
                   DoctorCard(
                       imagePath: 'lib/resources/images/doctor3.jpg',
                       name: 'Dr. Arlene McCoy',
